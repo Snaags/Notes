@@ -1,0 +1,29 @@
+
+--- Notes from Andrew Ng's lecture on reading research papers 
+
+	Understanding Papers
+
+		1. Gather a collection of papers
+
+		2. Skim through them reading the abstract/figures
+
+		3. For interesting papers, read intro/conclusion and skim the rest
+
+		4. Read the whole paper apart from the maths
+
+		5. Go through the maths, understanding deeply
+
+	Understanding maths
+		
+		- Rederive from scratch 
+			- Proof of understanding
+			- Allows you to learn how to develop new novel maths
+
+	Understanding code
+
+		1. Run open - source code
+
+		2. Implement it from scratch
+
+
+Consistancy is important - better to read a few each week

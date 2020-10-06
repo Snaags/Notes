@@ -1,0 +1,59 @@
+
+-Deep Neuroevolution of Recurrent and Discrete World Models
+
+This paper looks at the use of genetic evolution to produce the weights in deep convolutional and 
+feedforward neural networks. The technique is applied to a 2-d racing game using a mutlicomponent 
+system (visual, memory, controler) which is trained genetically as a whole rather than as seperate
+parts. This was able to out perform standard RL gradient descent techniques and allowed for the 
+optimisation of raw discrete variables as it does not really on back propagation
+
+3. Designing Neural Networks Through Neuroevolution
+
+A review of the current SOTA as well as interesting avenues for development in neuroevolution. Important
+aspects include:
+	-Evolving network architecture as well as cells (LSTM, Gated Recurrent) which out perform human designed
+	systems
+
+	Learning neuromodulation allowing the network to control or limit the rate at which its weights alter, either 
+	at the scale of individual neurons or across the entire network
+
+
+4*. Evolutionary Neural AutoML for Deep Learning  **
+
+	-Genetic architechure optimisation 
+
+	-"LEAF" - seperates the model training and evaluation from the genetic selection and mutation 
+
+5. Federated Machine LEarning: Concept and Applications
+
+	-Focuses on:
+		 Security
+		 Transfer learning 
+		 Parallelisation
+
+6*. AutoNE: Hyperparameter Optimization for Massive Network Embedding **
+	
+	-Optimising the hyperparameters of a system that converts very large Graph networks to vector space
+
+	-samples smaller sub-networks and optimises the hyperparameters for these, this information is then 
+	 transfered to a meta-learner which is used to optimise the entire network
+
+7*. Automated Machine Learning in Practice: State of the Art and Recent Results
+
+	-Overview of AutoML
+
+8*. Self-Tuning Networks: Bilevel Optimization of Hyperparameters Using Structured Best-Response Functions 
+	
+	- Looks at network optimisation as a two level problem 
+
+	- the weights are assumed to have an optimial vaulue for each set of hyperparams 
+
+
+98. Hyperband
+
+	- Algorithm for managing resource allocation for a random search 
+
+	- Uses SucessiveHalfing as a sub routine
+
+	- Limited when looking at configurations with high varience in convergence time 
+

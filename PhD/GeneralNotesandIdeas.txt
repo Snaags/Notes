@@ -1,0 +1,17 @@
+
+
+	-Agent trained to manage and allocate mutations rather than leaving it to random chance 
+	 or even designing new networks from scratch based on successful models
+	 	-sample --> validation data / format
+	 	-lable  --> hyperparameters of high performing models
+
+			-potential to be very broad 
+			-seeder model? 
+
+
+	-Combination of neuroevolution and back progagation (fine tuning done with back propagation for example)
+
+
+	-Hyperparameter optimisation can be considered an infinite bandit problem since they are 
+	 effectively infiniite configurations and an unknown reward for each
+

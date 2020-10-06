@@ -1,0 +1,7 @@
+
+
+Problems Faced by HPO:
+	
+	1. Expensive Evaluation functions
+
+	2. Many different types of variables to be optimised (continuous/catagorical) 
